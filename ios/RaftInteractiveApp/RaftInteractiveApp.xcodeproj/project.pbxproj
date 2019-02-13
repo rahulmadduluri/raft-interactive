@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF56B72622113F9C0058C933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B72522113F9C0058C933 /* AppDelegate.swift */; };
+		AF56B72822113F9C0058C933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B72722113F9C0058C933 /* ViewController.swift */; };
+		AF56B72B22113F9C0058C933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF56B72922113F9C0058C933 /* Main.storyboard */; };
+		AF56B72D22113F9D0058C933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF56B72C22113F9D0058C933 /* Assets.xcassets */; };
+		AF56B73022113F9D0058C933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF56B72E22113F9D0058C933 /* LaunchScreen.storyboard */; };
+		AF56B738221148CF0058C933 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B737221148CF0058C933 /* ContainerView.swift */; };
+		AF56B73C2212569F0058C933 /* vid_base.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF56B73B2212569F0058C933 /* vid_base.mp4 */; };
+		AF56B73E2212EFA10058C933 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B73D2212EFA10058C933 /* Checkbox.swift */; };
+		AF56B7402212F03D0058C933 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B73F2212F03D0058C933 /* OptionsTableViewCell.swift */; };
+		AF56B7422213BC060058C933 /* GeneralUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B7412213BC060058C933 /* GeneralUtilities.swift */; };
+		AF56B7442213BC2B0058C933 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF56B7432213BC2B0058C933 /* FontManager.swift */; };
+		AF56B74B2213BCAA0058C933 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7462213BCAA0058C933 /* Rubik-Black.ttf */; };
+		AF56B74C2213BCAA0058C933 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7472213BCAA0058C933 /* Rubik-Medium.ttf */; };
+		AF56B74D2213BCAA0058C933 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7482213BCAA0058C933 /* Rubik-Bold.ttf */; };
+		AF56B74E2213BCAA0058C933 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7492213BCAA0058C933 /* Rubik-Regular.ttf */; };
+		AF56B74F2213BCAA0058C933 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF56B74A2213BCAA0058C933 /* Rubik-Light.ttf */; };
+		AF56B7512214D2090058C933 /* vid_disgust.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7502214D2090058C933 /* vid_disgust.mp4 */; };
+		AF56B7552214D2470058C933 /* vid_spicy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7542214D2470058C933 /* vid_spicy.mp4 */; };
+		AF56B7572214D2580058C933 /* vid_orgasm.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7562214D2580058C933 /* vid_orgasm.mp4 */; };
+		AF56B7592214D9AB0058C933 /* vid_meh.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF56B7582214D9AB0058C933 /* vid_meh.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF56B72222113F9C0058C933 /* RaftInteractiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaftInteractiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF56B72522113F9C0058C933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF56B72722113F9C0058C933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF56B72A22113F9C0058C933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF56B72C22113F9D0058C933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF56B72F22113F9D0058C933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF56B73122113F9D0058C933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF56B737221148CF0058C933 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		AF56B73B2212569F0058C933 /* vid_base.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid_base.mp4; sourceTree = "<group>"; };
+		AF56B73D2212EFA10058C933 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		AF56B73F2212F03D0058C933 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		AF56B7412213BC060058C933 /* GeneralUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralUtilities.swift; sourceTree = "<group>"; };
+		AF56B7432213BC2B0058C933 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		AF56B7462213BCAA0058C933 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		AF56B7472213BCAA0058C933 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		AF56B7482213BCAA0058C933 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		AF56B7492213BCAA0058C933 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		AF56B74A2213BCAA0058C933 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		AF56B7502214D2090058C933 /* vid_disgust.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid_disgust.mp4; sourceTree = "<group>"; };
+		AF56B7542214D2470058C933 /* vid_spicy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid_spicy.mp4; sourceTree = "<group>"; };
+		AF56B7562214D2580058C933 /* vid_orgasm.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid_orgasm.mp4; sourceTree = "<group>"; };
+		AF56B7582214D9AB0058C933 /* vid_meh.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid_meh.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF56B71F22113F9C0058C933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF56B71922113F9C0058C933 = {
+			isa = PBXGroup;
+			children = (
+				AF56B72422113F9C0058C933 /* RaftInteractiveApp */,
+				AF56B72322113F9C0058C933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF56B72322113F9C0058C933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF56B72222113F9C0058C933 /* RaftInteractiveApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF56B72422113F9C0058C933 /* RaftInteractiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF56B73B2212569F0058C933 /* vid_base.mp4 */,
+				AF56B7502214D2090058C933 /* vid_disgust.mp4 */,
+				AF56B7542214D2470058C933 /* vid_spicy.mp4 */,
+				AF56B7582214D9AB0058C933 /* vid_meh.mp4 */,
+				AF56B7562214D2580058C933 /* vid_orgasm.mp4 */,
+				AF56B72522113F9C0058C933 /* AppDelegate.swift */,
+				AF56B7452213BC6D0058C933 /* Fonts */,
+				AF56B7412213BC060058C933 /* GeneralUtilities.swift */,
+				AF56B72722113F9C0058C933 /* ViewController.swift */,
+				AF56B737221148CF0058C933 /* ContainerView.swift */,
+				AF56B73F2212F03D0058C933 /* OptionsTableViewCell.swift */,
+				AF56B73D2212EFA10058C933 /* Checkbox.swift */,
+				AF56B72922113F9C0058C933 /* Main.storyboard */,
+				AF56B72C22113F9D0058C933 /* Assets.xcassets */,
+				AF56B72E22113F9D0058C933 /* LaunchScreen.storyboard */,
+				AF56B73122113F9D0058C933 /* Info.plist */,
+			);
+			path = RaftInteractiveApp;
+			sourceTree = "<group>";
+		};
+		AF56B7452213BC6D0058C933 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF56B7462213BCAA0058C933 /* Rubik-Black.ttf */,
+				AF56B7482213BCAA0058C933 /* Rubik-Bold.ttf */,
+				AF56B74A2213BCAA0058C933 /* Rubik-Light.ttf */,
+				AF56B7472213BCAA0058C933 /* Rubik-Medium.ttf */,
+				AF56B7492213BCAA0058C933 /* Rubik-Regular.ttf */,
+				AF56B7432213BC2B0058C933 /* FontManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF56B72122113F9C0058C933 /* RaftInteractiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF56B73422113F9D0058C933 /* Build configuration list for PBXNativeTarget "RaftInteractiveApp" */;
+			buildPhases = (
+				AF56B71E22113F9C0058C933 /* Sources */,
+				AF56B71F22113F9C0058C933 /* Frameworks */,
+				AF56B72022113F9C0058C933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaftInteractiveApp;
+			productName = RaftInteractiveApp;
+			productReference = AF56B72222113F9C0058C933 /* RaftInteractiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF56B71A22113F9C0058C933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Raft;
+				TargetAttributes = {
+					AF56B72122113F9C0058C933 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AF56B71D22113F9C0058C933 /* Build configuration list for PBXProject "RaftInteractiveApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF56B71922113F9C0058C933;
+			productRefGroup = AF56B72322113F9C0058C933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF56B72122113F9C0058C933 /* RaftInteractiveApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF56B72022113F9C0058C933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF56B73022113F9D0058C933 /* LaunchScreen.storyboard in Resources */,
+				AF56B74E2213BCAA0058C933 /* Rubik-Regular.ttf in Resources */,
+				AF56B7552214D2470058C933 /* vid_spicy.mp4 in Resources */,
+				AF56B73C2212569F0058C933 /* vid_base.mp4 in Resources */,
+				AF56B72D22113F9D0058C933 /* Assets.xcassets in Resources */,
+				AF56B74F2213BCAA0058C933 /* Rubik-Light.ttf in Resources */,
+				AF56B7572214D2580058C933 /* vid_orgasm.mp4 in Resources */,
+				AF56B74C2213BCAA0058C933 /* Rubik-Medium.ttf in Resources */,
+				AF56B74D2213BCAA0058C933 /* Rubik-Bold.ttf in Resources */,
+				AF56B74B2213BCAA0058C933 /* Rubik-Black.ttf in Resources */,
+				AF56B7592214D9AB0058C933 /* vid_meh.mp4 in Resources */,
+				AF56B72B22113F9C0058C933 /* Main.storyboard in Resources */,
+				AF56B7512214D2090058C933 /* vid_disgust.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF56B71E22113F9C0058C933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF56B7402212F03D0058C933 /* OptionsTableViewCell.swift in Sources */,
+				AF56B72822113F9C0058C933 /* ViewController.swift in Sources */,
+				AF56B7442213BC2B0058C933 /* FontManager.swift in Sources */,
+				AF56B72622113F9C0058C933 /* AppDelegate.swift in Sources */,
+				AF56B738221148CF0058C933 /* ContainerView.swift in Sources */,
+				AF56B73E2212EFA10058C933 /* Checkbox.swift in Sources */,
+				AF56B7422213BC060058C933 /* GeneralUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF56B72922113F9C0058C933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF56B72A22113F9C0058C933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF56B72E22113F9D0058C933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF56B72F22113F9D0058C933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF56B73222113F9D0058C933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF56B73322113F9D0058C933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF56B73522113F9D0058C933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KP2V8DA69;
+				INFOPLIST_FILE = RaftInteractiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raft.RaftInteractiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF56B73622113F9D0058C933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KP2V8DA69;
+				INFOPLIST_FILE = RaftInteractiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = raft.RaftInteractiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF56B71D22113F9C0058C933 /* Build configuration list for PBXProject "RaftInteractiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF56B73222113F9D0058C933 /* Debug */,
+				AF56B73322113F9D0058C933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF56B73422113F9D0058C933 /* Build configuration list for PBXNativeTarget "RaftInteractiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF56B73522113F9D0058C933 /* Debug */,
+				AF56B73622113F9D0058C933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF56B71A22113F9C0058C933 /* Project object */;
+}
